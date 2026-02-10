@@ -11,7 +11,7 @@ import java.nio.charset.StandardCharsets;
 
 public class WeatherAPI {
     private static final String API_KEY = "d79fd37097aae18d32f7e6504c631250";
-    // Parser "list" күтеді, ол /forecast-та болады:
+   
     private static final String BASE_URL = "https://api.openweathermap.org/data/2.5/forecast";
 
     public String getForecast(String city) throws IOException {
