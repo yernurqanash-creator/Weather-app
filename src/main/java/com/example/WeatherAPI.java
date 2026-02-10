@@ -10,9 +10,9 @@ import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
 
 public class WeatherAPI {
-    private static final String API_KEY = "d79fd37097aae18d32f7e6504c631250";
+    private static final String API_KEY = "OPENWEATHER_API_KEY";
    
-    private static final String BASE_URL = "https://api.openweathermap.org/data/2.5/forecast";
+    private static final String BASE_URL = "";
 
     public String getForecast(String city) throws IOException {
         String encodedCity = URLEncoder.encode(city, StandardCharsets.UTF_8);
